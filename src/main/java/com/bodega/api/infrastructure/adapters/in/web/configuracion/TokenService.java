@@ -17,7 +17,7 @@ public class TokenService {
     // Clave secreta robusta (en producción idealmente va en application.properties o variables de entorno)
     private final String jwtSecret = "claveSecretaSuperSeguraYExtensaParaFirmarLosTokensJWTDeLaBodegaAlex2026";
 
-    // Tiempo de expiración (ejemplo: 2 horas en milisegundos)
+    // Tiempo de expiración 2 horas acuerdate gil)
     private final long jwtExpirationMs = 300000;
 
     private SecretKey getSigningKey() {
